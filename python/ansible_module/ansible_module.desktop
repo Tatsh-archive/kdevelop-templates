@@ -1,0 +1,12 @@
+[General]
+Name=Ansible Module
+Comment=Generate an Ansible module
+Category=Python/Ansible
+Language=Python
+Files=Implementation
+Type=Module
+
+[Implementation]
+Name=Implementation
+File=module.py
+OutputFile={{ name }}
